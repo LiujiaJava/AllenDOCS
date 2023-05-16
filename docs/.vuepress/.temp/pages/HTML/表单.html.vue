@@ -1,0 +1,44 @@
+<template><div><p>HTML 中的表单（Form）是用于收集用户输入信息的一种机制。它提供了各种元素和属性，使开发者能够创建交互式的用户界面和实现数据提交功能。下面将通过文字和代码段来解析 HTML 中的表单、其属性以及一些常见的易错点。</p>
+<p>表单的基本结构包括 <code v-pre>&lt;form&gt;</code> 元素以及包含在其中的各种表单元素，如输入字段、复选框、单选按钮和按钮等。以下是一个简单的表单示例：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/submit<span class="token punctuation">"</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>POST<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>name<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>姓名：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>name<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>name<span class="token punctuation">"</span></span> <span class="token attr-name">required</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>邮箱：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">required</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>密码：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">required</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>提交<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在上面的代码中，<code v-pre>&lt;form&gt;</code> 元素用于创建表单，并通过 action 属性指定了表单提交的目标 URL。method 属性定义了表单提交的 HTTP 方法，这里使用了 POST 方法。<code v-pre>&lt;label&gt;</code> 元素用于标识输入字段，通过 for 属性与相应的输入字段关联。<code v-pre>&lt;input&gt;</code> 元素用于创建输入字段，如文本输入、邮箱输入和密码输入等。<code v-pre>&lt;input type=&quot;submit&quot;&gt;</code> 元素用于创建提交按钮。</p>
+<p>表单中的输入字段可以使用多种属性来定义其行为和验证规则。以下是一些常见的属性：</p>
+<ul>
+<li>name：定义字段的名称，用于在提交表单时标识字段。</li>
+<li>id：定义字段的唯一标识符，用于与 <code v-pre>&lt;label&gt;</code> 元素关联。</li>
+<li>type：指定字段的类型，如文本、邮箱、密码等。</li>
+<li>required：指定字段为必填项，如果用户没有填写该字段，则表单无法提交。</li>
+<li>placeholder：在输入字段为空时显示的占位符文本。</li>
+</ul>
+<blockquote>
+<p>在处理表单时，开发者需要注意一些常见的易错点：</p>
+</blockquote>
+<blockquote>
+<p>1.忘记包裹表单元素：表单的所有表单元素应该包含在 <code v-pre>&lt;form&gt;</code> 元素内，以确保它们作为表单的一部分提交。</p>
+</blockquote>
+<blockquote>
+<p>2.忘记设置 name 属性：每个表单元素都应该设置一个唯一的 name 属性，用于在后端处理表单数据时进行识别。</p>
+</blockquote>
+<blockquote>
+<p>3.缺少表单提交按钮：在表单中应包含至少一个提交按钮，用于触发表单的提交操作。</p>
+</blockquote>
+<blockquote>
+<p>4.表单验证不完善：HTML 提供了一些内置的验证属性，如 required、pattern 等，但开发者仍需进行后端验证来确保数据的完整性和正确性。</p>
+</blockquote>
+<blockquote>
+<p>5.不清楚表单的提交目标和方法：action 属性指</p>
+</blockquote>
+</div></template>
+
+

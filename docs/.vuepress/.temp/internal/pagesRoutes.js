@@ -1,0 +1,16 @@
+export const pagesRoutes = [
+  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
+  ["v-7b77caf3","/ChengDouKeJi/ceshi.html",{"title":""},["/ChengDouKeJi/ceshi","/ChengDouKeJi/ceshi.md"]],
+  ["v-6db782b4","/ChengDouKeJi/Problem.html",{"title":"问题解决方法"},["/ChengDouKeJi/Problem","/ChengDouKeJi/Problem.md"]],
+  ["v-75b89a70","/CSS/wenzhang.html",{"title":""},["/CSS/wenzhang","/CSS/wenzhang.md"]],
+  ["v-b1870a26","/HTML/%E5%85%83%E7%B4%A0.html",{"title":"元素（Element）"},["/HTML/元素.html","/HTML/%E5%85%83%E7%B4%A0","/HTML/元素.md","/HTML/%E5%85%83%E7%B4%A0.md"]],
+  ["v-2233ae67","/HTML/%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0.html",{"title":"内联元素（Inline Element）"},["/HTML/内联元素.html","/HTML/%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0","/HTML/内联元素.md","/HTML/%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0.md"]],
+  ["v-4794dbf2","/HTML/%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0.html",{"title":"块级元素（Block-level Element）"},["/HTML/块级元素.html","/HTML/%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0","/HTML/块级元素.md","/HTML/%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0.md"]],
+  ["v-4c3a8658","/HTML/%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B.html",{"title":"文档对象模型（DOM，Document Object Model）"},["/HTML/对象模型.html","/HTML/%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B","/HTML/对象模型.md","/HTML/%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B.md"]],
+  ["v-0e278ba8","/HTML/%E5%B1%9E%E6%80%A7.html",{"title":"属性（Attribute）"},["/HTML/属性.html","/HTML/%E5%B1%9E%E6%80%A7","/HTML/属性.md","/HTML/%E5%B1%9E%E6%80%A7.md"]],
+  ["v-6237506f","/HTML/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80.html",{"title":"标记语言 （Markup Language）"},["/HTML/标记语言.html","/HTML/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80","/HTML/标记语言.md","/HTML/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80.md"]],
+  ["v-9efa83f0","/HTML/%E8%A1%A8%E5%8D%95.html",{"title":"表单（Form）"},["/HTML/表单.html","/HTML/%E8%A1%A8%E5%8D%95","/HTML/表单.md","/HTML/%E8%A1%A8%E5%8D%95.md"]],
+  ["v-ff6d6576","/HTML/%E8%AF%AD%E4%B9%89%E5%8C%96.html",{"title":"语义化（Semantic）"},["/HTML/语义化.html","/HTML/%E8%AF%AD%E4%B9%89%E5%8C%96","/HTML/语义化.md","/HTML/%E8%AF%AD%E4%B9%89%E5%8C%96.md"]],
+  ["v-37781588","/zh/guide/getting-started.html",{"title":""},["/zh/guide/getting-started","/zh/guide/getting-started.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
+]

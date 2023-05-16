@@ -1,0 +1,13 @@
+<template><div><p>HTML 中的元素（Element）是构成网页的基本构建块。每个元素由开始标签、结束标签和内容组成，它们一起定义了网页中的不同部分和功能。下面将通过文字和代码段来解析 HTML 中的元素。</p>
+<p>在 HTML 中，元素由一对尖括号 &lt; &gt; 包围的标签定义。开始标签以 &lt; 开头，结束标签以 &lt;/ 开头，后面跟着元素的名称，最后以 &gt; 结束。以下是一个简单的示例：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>这是一个段落。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在上面的代码中，<code v-pre>&lt;p&gt;</code> 是一个段落元素的开始标签，<code v-pre>&lt;/p&gt;</code> 是其结束标签，中间的文本内容 &quot;这是一个段落。&quot; 就是该元素的内容。浏览器将根据元素的定义和内容来显示和处理网页。</p>
+<p>HTML 中有许多内置的元素可以用来创建不同类型的内容和结构。例如，<code v-pre>&lt;h1&gt;</code> 到 <code v-pre>&lt;h6&gt;</code> 是标题元素，用于定义不同级别的标题。<code v-pre>&lt;a&gt;</code> 是链接元素，用于创建超链接。<code v-pre>&lt;img&gt;</code> 是图像元素，用于插入图像等等。</p>
+<p>除了开始标签和结束标签外，元素还可以具有属性。属性提供了额外的信息，用于控制元素的行为和样式。属性位于开始标签中，并以名称和值的形式表示。以下是一个示例：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>我的图像<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在上面的代码中，<code v-pre>&lt;img&gt;</code> 元素具有两个属性。src 属性指定图像的 URL，alt 属性提供了图像的替代文本。这些属性帮助浏览器正确显示图像，并提供了可访问性支持。</p>
+<p>通过合理使用不同的元素和属性，开发者可以创建结构清晰、语义明确的网页内容。元素的选择和组合也能影响网页的样式和布局。开发者可以通过 CSS 样式表来为元素添加样式和布局。</p>
+<p>总结起来，HTML 中的元素是网页的基本构建块，由开始标签、结束标签和内容组成。每个元素都具有不同的功能和作用，可以通过属性来控制其行为和样式。合理使用元素和属性，可以创建丰富多样的网页内容和结构，并通过 CSS 来为其添加样式和布局。</p>
+</div></template>
+
+
