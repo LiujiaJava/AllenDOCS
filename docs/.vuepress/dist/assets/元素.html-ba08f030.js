@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b1870a26","path":"/HTML/%E5%85%83%E7%B4%A0.html","title":"元素（Element）","lang":"zh-CN","frontmatter":{"title":"元素（Element）"},"headers":[],"git":{},"filePathRelative":"HTML/元素.md"}');export{t as data};

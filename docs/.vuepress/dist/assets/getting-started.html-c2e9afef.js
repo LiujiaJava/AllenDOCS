@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as n}from"./app-049a561b.js";const o={},s=n("p",null,"这里是起始位置",-1),_=[s];function a(r,l){return t(),c("div",null,_)}const i=e(o,[["render",a],["__file","getting-started.html.vue"]]);export{i as default};

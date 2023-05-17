@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-6237506f","path":"/HTML/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80.html","title":"标记语言 （Markup Language）","lang":"zh-CN","frontmatter":{"title":"标记语言 （Markup Language）"},"headers":[],"git":{},"filePathRelative":"HTML/标记语言.md"}');export{a as data};
