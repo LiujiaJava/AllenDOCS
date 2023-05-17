@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"个人页面\",\"description\":\"Vue 驱动的静态网站生成器\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[[\"meta\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}],[\"meta\",{\"name\":\"Allen\",\"content\":\"Allen帮助档\"}],[\"meta\",{\"name\":\"keywords\",\"content\":\"Vue,java,前端，后端帮助文档\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Allen帮助档\",\"description\":\"Vue,java,前端，后端帮助文档\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
