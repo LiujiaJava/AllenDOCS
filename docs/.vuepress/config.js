@@ -25,6 +25,7 @@ module.exports = {
   ],
 
   theme: defaultTheme({
+    
     //图片左边log
     logo: '/asses/images/logo.jpg',
     navbar: [
